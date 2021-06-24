@@ -1,0 +1,8 @@
+INFO:root:info_app -- executing main()
+INFO:root:info_app -- invoking server 127.0.0.1, port = 5000
+INFO:werkzeug: * Restarting with stat
+INFO:root:info_app -- executing main()
+INFO:root:info_app -- invoking server 127.0.0.1, port = 5000
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 268-896-906
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

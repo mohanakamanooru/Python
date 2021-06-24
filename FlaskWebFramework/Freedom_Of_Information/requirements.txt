@@ -1,0 +1,39 @@
+
+##########################################################################
+#Module : Software for Digital Innovation 
+#Assessment : ICA-2 (Freedom Of Information)
+#Project Name : Freedom Of Information
+#@author: Mohana Kamanooru
+#email : A0223038@live.tees.ac.uk
+###########################################################################
+# # File Name: requirements.txt
+# # Purpose : contains the list of modules and packages used in the project
+############################################################################
+
+	1. Python version 3.8.3 
+		https://www.python.org/downloads/release/python-383/
+		
+	2. Flask 1.1.2
+		https://pypi.org/project/Flask/
+		pip install Flask
+		
+	3. Jinja2
+		https://pypi.org/project/Jinja2/
+		pip install Jinja2
+		
+	4. Pandas 1.1.4
+		https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
+		pip install pandas
+		
+	5. Matlplotlib 3.3.3
+		https://pypi.org/project/matplotlib/
+		pip install matplotlib
+		
+	6. Unittest 2 1.1.0
+		https://pypi.org/project/unittest2/
+		
+		
+		
+		
+		
+		

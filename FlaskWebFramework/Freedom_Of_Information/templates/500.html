@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block head %}
+
+  <title>Freedom OF Information</title> 
+  <h1>Software for Digital Innovation</h1>
+  <h2>In-Course Assessment 2</h2>
+
+{% endblock %}
+
+{% block body %}
+    
+<div class="bg">
+<h3>Sorry!! No data is recorded in the Police database for Stop and Search in </h3>
+<h3>one of the selected Forces on {{records_date}}</h3>
+<img src={{ url_for('static', filename='img/server_error.jpg') }} style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
+</div>
+
+{% endblock %}

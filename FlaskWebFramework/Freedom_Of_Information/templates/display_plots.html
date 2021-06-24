@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<title>Stop and Search</title>
+	<h1>Stop and Search</h1>
+	<h2><a href="http://data.police.uk">DATA.POLICE.UK</a></h2>
+
+{% endblock %}
+
+{% block body %}
+
+<h2>Data recorded on {{records_date}} from </br> -
+{% for force in records_flist %}
+
+{{force}} -
+
+{% endfor %}
+
+</h2>
+
+	<table width=100% height=100%> 
+	    <tr>
+	        <td style="text-align: center; vertical-align: middle;">
+	            <img src="{{url_for('static', filename='img/compare.png') }}" />
+				<img src="{{url_for('static', filename='img/age_range.png') }}" />
+				<img src="{{url_for('static', filename='img/ethnicity.png') }}" />
+				<img src="{{url_for('static', filename='img/gender.png') }}" />
+				<img src="{{url_for('static', filename='img/type.png') }}" />
+				
+	        </td>
+	    </tr>
+	</table>
+
+{% endblock %}

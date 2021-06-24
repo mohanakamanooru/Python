@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+  <title>Freedom OF Information</title> 
+  <h1>Software for Digital Innovation</h1>
+  <h2>In-Course Assessment 2</h2>
+
+{% endblock %}
+
+{% block body %}
+</br></br>
+<h3 style = "font-size:20px; color:black">Please click on text below</h3>
+<h3><a href = "{{ url_for('covid_search') }}">COVID-19 Cases Information</a></h3>
+<h3><a href= "{{ url_for('stop_and_search') }}">Stop and Search Information</a></h3>
+
+{% endblock %}

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<title>COVID Search</title>
+	<h1>COVID Data Search</h1>
+	<h2><a href="https://coronavirus.data.gov.uk/details/aboutdata#cases-by-age">Coronavirus Gov Data</a></h2>
+
+{% endblock %}
+
+{% block body %}
+
+		<form method="post" action="{{ url_for('display_cases') }}" method="post">
+			<div id="id_date" class="covidform">
+				<span>
+					<label for="start">Start date:</label>
+						<input type="date" id="start" name="start" value="2020-10-01" min="2020-01-01" max="2020-12-31">
+				</span>&nbsp;&nbsp;&nbsp;
+				<span>
+					<label for="end">End date:</label>
+						<input type="date" id="end" name="end" value="2020-11-01" min="2020-01-01" max="2020-12-31">
+				  </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<span>
+					<button id='submit' class="covidbutton" type="submit" value="submit" onclick ="disablefunction()"><strong>&nbsp;View Results&nbsp;</strong></button>
+				</span>
+			</div>
+			
+			<div id="id_area" class="covid_area">
+				<span>
+					<label for="Area">Area (optional)</label>
+						<ul class="COVIDlist"style="list-style-type:none;">
+							{% for i, row in areaName_df.iterrows() %}
+								<li><label for= i><input type="checkbox" name="areas" value= {{row['id']}} /> {{row['name']}}
+								</label></li>
+							{% endfor %}
+						</ul>
+				</span>
+			</div>
+
+			</form>
+
+
+{% endblock %}
+
+<script>
+function disablefunction() {
+	document.getElementById("submit").value="Loading....";
+	document.getElementById("").disabled = true;
+	
+}
+</script>
+

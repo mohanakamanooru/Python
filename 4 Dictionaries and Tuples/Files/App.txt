@@ -1,0 +1,28 @@
+1. Produce an app which first reads all cars from cars_exercise.txt used in
+previous exercises into a list of dictionaries as in question 3, then asks the user if
+they’d like to add or remove a car.
+
+
+2. If the user specifies that they’d like to add a car, ask them for the make, model and
+year of the car and add it to the list of dictionaries, then write the list of dictionaries
+back to the text file, formatted in the same way as the original file (3 lines per car:
+make, then model, then year). Be careful here not to lose data!
+
+
+3. If the user specifies that they’d like to remove a car, ask them to specify a make,
+model and year. Check the list of dictionaries for a car that fulfils these criteria,
+ignoring letter case (i.e. in a case-insensitive way—see question 2).
+
+
+4. If one is found, ask the user if they’re sure they want to delete it. If they choose yes,
+remove the car in question from the list of dictionaries and write out the file again. If
+they choose no, skip to point 6.
+
+
+5. If one is not found, tell the user that the app could not find a car that satisfies the
+criteria.
+
+
+6. Loop back around to point 1 and ask the user if they’d like to add or delete a car
+again. This should continue until the user types ‘exit’.
+

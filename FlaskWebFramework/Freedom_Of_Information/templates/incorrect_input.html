@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<title>COVID Search</title>
+	<h1>COVID Data Search</h1>
+	<h2><a href="https://coronavirus.data.gov.uk/details/aboutdata#cases-by-age">Coronavirus Gov Data</a></h2>
+
+{% endblock %}
+
+{% block body %}
+<div class="bg">
+<h2> Please check month inputs </h2>
+<h2> Start month cannot be after End month </h2>
+<h3> <a href="{{ url_for('covid_search') }}">COVID Search</a></h3>
+</div>
+
+
+{% endblock %}

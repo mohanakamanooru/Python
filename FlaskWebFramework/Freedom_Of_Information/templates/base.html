@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta name="Generator" content="Eclipse IDE">
+  <meta name="Author" content="Mohana Kamanooru">
+  <meta name="Email" content="A0223038@live.tees.ac.uk">
+  <meta name="Assessment" content="ICA-2">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+<img style="position: absolute; right: 0px;	top: 0px;z-index: -1;" 
+src={{ url_for('static', filename='img/uni_logo.jpg') }}  width="280" height="160">
+	
+    {% block head %}{% endblock %}
+
+</head>
+<body>
+
+	<div class="navbar">
+	  <a href="{{ url_for('index') }}">Home</a>
+	  <div class="dropdown">
+	    <button class="dropbtn">Navigate 
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="{{ url_for('covid_search') }}">COVID Search</a>
+	      <a href="{{ url_for('stop_and_search') }}">Stop and Search</a>
+	    </div>
+	  </div> 
+	</div></br>
+
+    {% block body %}{% endblock %}
+
+	<div class="footer">Software For Digital Innovation - ICA2
+	</br>Mohana Kamanooru 
+	</br>A0223038@live.tees.ac.uk </br>
+    <a href="http://www.tees.ac.uk/"> Teesside University</a>
+  	</div>
+
+</body>
+</html>

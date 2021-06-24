@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<title>Stop and Search</title>
+	<h1>Stop and Search</h1>
+	<h2><a href="http://data.police.uk">DATA.POLICE.UK</a></h2>
+
+{% endblock %}
+
+{% block body %}
+
+		<form method="post" action="{{ url_for('display_plots') }}" method="post">
+			<div id="id_date" class="">
+				<span>
+					<label for="month">Month:</label>
+					<select id="id_month" name="month">
+					  <option value = "01">January</option>
+					  <option value = "02">February</option>
+					  <option value = "03">March</option>
+					  <option value = "04">April</option>
+					  <option value = "05">May</option>
+					  <option value = "06">June</option>
+					  <option value = "07">July</option>
+					  <option value = "08">August</option>
+					  <option value = "09">September</option>
+					  <option value = "10">October</option>
+					  <option value = "11">November</option>
+					  <option value = "12" selected>December</option>
+					</select>
+				  </span>
+
+				  <span>
+					<label for="year">Year</label>
+					<select id="id_year" name="year">
+					  <option value = "2020" selected>2020</option>
+					  <option value = "2019">2019</option>
+					  <option value = "2018">2018</option>
+					  <option value = "2017">2017</option>
+					</select>
+				  </span> &nbsp;&nbsp;&nbsp;&nbsp;
+				<span>
+					<button class="ssbutton" type="submit" value="submit" onclick ="disablefunction()"><strong>&nbsp;View Results&nbsp;</strong></button>
+				</span>
+		
+			</div>
+			<div id="id_force" class="">
+					<span>
+						<label for="force"> Force *</label>
+						<ul stylr="list-style-type:none;">
+							{% for i, row in forces_df.iterrows() %}
+							<li><label for= i><input type="checkbox" name="forces" value= {{row['id']}} /> {{row['name']}}</label></li>
+								
+							{% endfor %}
+						</ul>
+					</span>
+			</div>
+		</form>
+
+
+{% endblock %}
+
+<script>
+function disablefunction() {
+	document.getElementById("submit").value="Loading....";
+	document.getElementById("").disabled = true;
+	
+}
+</script>

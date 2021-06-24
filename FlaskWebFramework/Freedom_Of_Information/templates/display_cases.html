@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<title>COVID Search</title>
+	<h1>COVID Data Search</h1>
+	<h2><a href="https://coronavirus.data.gov.uk/details/aboutdata#cases-by-age">Coronavirus Gov Data</a></h2>
+
+{% endblock %}
+
+{% block body %}
+
+<h2>Covid Cases from {{frm}} to {{to}} </h2>
+
+	<table width=100% height=100%> 
+	    <tr>
+	        <td style="text-align: center; vertical-align: middle;">
+	            <img src="{{url_for('static', filename='img/covid_date.png') }}" />
+				<img src="{{url_for('static', filename='img/covid_region.png') }}" />
+	        </td>
+	    </tr>
+	</table>
+</br>
+</br>
+{% endblock %}
