@@ -1,8 +1,194 @@
-INFO:root:info_app -- executing main()
-INFO:root:info_app -- invoking server 127.0.0.1, port = 5000
-INFO:werkzeug: * Restarting with stat
-INFO:root:info_app -- executing main()
-INFO:root:info_app -- invoking server 127.0.0.1, port = 5000
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 268-896-906
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:14] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:15] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:15] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:16] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:17] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:17] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:19] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:19] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing stop_and_search()
+INFO:root:ssForce --  __init__
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:24] "GET /stop_and_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:24] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:24] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing covid_search()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:28] "GET /covid_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:28] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:01:28] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:03:10] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:03:10] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 19:03:10] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:49] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:49] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:49] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing covid_search()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:51] "GET /covid_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:51] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:51] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing stop_and_search()
+INFO:root:ssForce --  __init__
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:54] "GET /stop_and_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:54] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Sep/2021 20:59:54] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:37:46] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:37:46] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:37:47] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing covid_search()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:03] "GET /covid_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:03] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:07] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:07] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app -- executing stop_and_search()
+INFO:root:ssForce --  __init__
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:09] "GET /stop_and_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:09] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:10] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:19] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:19] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app -- executing covid_search()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:22] "GET /covid_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:22] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 10:38:22] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:09:35] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:09:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:09:36] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing stop_and_search()
+INFO:root:ssForce --  __init__
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:09:46] "GET /stop_and_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:09:46] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:09:46] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing display_plots()
+INFO:root:info_app -- Reading the date and force inputs from Form
+INFO:root:info_app -- Getting forces id and name details from API 
+INFO:root:ssForce --  __init__
+INFO:root:ssForce -- get_force_list
+INFO:root:display_plots -- calling the process function in process_SSdata
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:03] "POST /display_plots/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:03] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing stop_and_search()
+INFO:root:ssForce --  __init__
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:13] "GET /stop_and_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:13] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:13] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing display_plots()
+INFO:root:info_app -- Reading the date and force inputs from Form
+INFO:root:info_app -- Getting forces id and name details from API 
+INFO:root:ssForce --  __init__
+INFO:root:ssForce -- get_force_list
+INFO:root:display_plots -- calling the process function in process_SSdata
+INFO:root:process_SSdata -- __init__
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:27] "POST /display_plots/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:27] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:28] "GET /static/img/compare.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:28] "GET /static/img/age_range.png HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:28] "GET /static/img/ethnicity.png HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:28] "GET /static/img/type.png HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:28] "GET /static/img/gender.png HTTP/1.1" 200 -
+INFO:root:info_app -- executing covid_search()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:37] "GET /covid_search/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:37] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:37] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app -- executing display_cases()
+INFO:root:display_cases() Reading the month inputs from Form 
+INFO:root:display_cases() -- calling the process function in process_COVIDdata
+INFO:root:process_COVIDdata -- executing process()
+INFO:root:process_COVIDdata -- calling get_cases_plot()
+INFO:root:process_COVIDdata -- executing get_cases_plot(df) 
+INFO:root:process_COVIDdata -- get_cases_plot - plotting the graphs
+INFO:root:process_COVIDdata -- exiting get_cases_plot()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:48] "POST /display_cases/ HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:48] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:48] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:48] "GET /static/img/covid_date.png HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:48] "GET /static/img/covid_region.png HTTP/1.1" 200 -
+INFO:root:info_app -- executing index()
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:56] "GET / HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:56] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:root:info_app() -- add_header() clearing the cache
+INFO:werkzeug:127.0.0.1 - - [03/Sep/2021 11:10:56] "GET /static/img/uni_logo.jpg HTTP/1.1" 200 -

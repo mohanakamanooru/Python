@@ -49,6 +49,7 @@
 		pip install Jinja2
 		pip install pandas
 		pip install matplotlib
+		pip install requests
 		
 
 	IDE 
